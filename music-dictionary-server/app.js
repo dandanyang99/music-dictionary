@@ -1,5 +1,5 @@
 const Koa = require('koa');
-const koaBody = require('koa-body');
+const { koaBody } = require('koa-body');
 const wordRouter = require('./router/word');
 require('dotenv').config();
 
