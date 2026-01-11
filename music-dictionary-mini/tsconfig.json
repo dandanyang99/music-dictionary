@@ -25,6 +25,8 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["./src", "./types", "./config"],
+  "include": ["config/**/*", // 必须有这一行
+    "src/**/*",
+    "types/**/*"],
   "compileOnSave": false
 }

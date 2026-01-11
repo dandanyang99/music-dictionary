@@ -13,7 +13,7 @@ const config: UserConfigExport = {
   },
   sourceRoot: 'src',
   outputRoot: `dist/${process.env.TARO_ENV}`,
-  framework: 'vue3', // 或 react/nerv，根据项目实际技术栈调整
+  framework: 'react', // 或 react/nerv，根据项目实际技术栈调整
   compiler: 'webpack5',
   mini: {
     postcss: {
